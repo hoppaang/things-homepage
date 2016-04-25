@@ -1,3 +1,12 @@
+::selection{background:#ec5252;}
+.navbar-nav .language{position:absolute;right:0;}
+.navbar-nav .language a{
+	float:left;
+	margin-top:15px;padding:0px 12px !important;
+	font-size:12px !important;
+	font-weight:100;
+	letter-spacing:1px;
+}
 .one-page-header .navbar-brand{font-weight:100;}
 .one-page-header .navbar-brand span,.color-green{
 	color:#ec5252 !important;
@@ -45,3 +54,22 @@
 	top:-50px;
 }
 #intro{text-align:center}
+.bothside-dot{
+	border:1px dotted rgba(255,255,255,.1);
+	border-width:0 1px;
+}
+.intro-section{
+	background:url(../images/bg1.png) 50% 100% no-repeat #333;
+	min-height:485px;
+	margin-top:-5px;
+}
+.intro-section .container{
+	margin-right:5%;padding:80px 0 0 0;
+	width:600px;
+}
+.intro-section .container h1{
+	font-size:30px !important;
+	font-weight:100;
+	color:#fff !important;
+}
+.intro-section .container p{color:rgba(255,255,255,.6);font-weight:100;}
