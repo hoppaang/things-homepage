@@ -1,0 +1,47 @@
+.one-page-header .navbar-brand{font-weight:100;}
+.one-page-header .navbar-brand span,.color-green{
+	color:#ec5252 !important;
+	font-weight:bold;
+}
+.one-page-header .navbar-nav > .active > a, .one-page-header .navbar-nav > .active > a:hover, .one-page-header .navbar-nav > .active > a:focus, 
+.one-page-header .dropdown-menu > .active > a, .one-page-header .dropdown-menu > .active > a:hover, .one-page-header .dropdown-menu > .active > a:focus, 
+.one-page-header.top-nav-collapse .dropdown-menu > .active > a, .one-page-header.top-nav-collapse .dropdown-menu > .active > a:hover, 
+.one-page-header.top-nav-collapse .dropdown-menu > .active > a:focus
+{color:#ec5252 !important;}
+.one-page-header .navbar-nav > li > a:before{display:none;}
+.one-page-header .navbar-nav > li > a{
+	padding:14px 40px 13px 0;
+	font-size:13.5px;
+}
+.about-section .about-image,#services .content-lg,#contact .content-lg{padding-top:50px;}
+.tp-bannertimer{display:none;}
+.title-v1 h1:after, .title-v1 h2:after,i.icon-bg-u,.service-box-v1 p:after{background:#ec5252;}
+.service-box-v1 li{border-top:dotted 1px #ec5252;}
+.about-image img{margin-bottom:50px;}
+.parallax-quote{background:url(../images/face.png) 50% 0 repeat fixed;}
+.tp-dottedoverlay.twoxtwo{background:none;}
+.service-block .icon-custom{background:url(../images/icon-service.png) 50% 0 #ec5252}
+.service-box-v1 li:hover{color:#ec5252;}
+.icon-custom.service1{background-position:-2px    7px}
+.icon-custom.service2{background-position:-1px  -91px}
+.icon-custom.service3{background-position:-4px -191px}
+.contacts-section{background:#333 url(../images/contact.png) center fixed;}
+.contacts-in li{font-size:14px;}
+.contacts-in li i{
+	background:url(../images/icon-contact.png) 50% 2px rgba(255,255,255,0.05) no-repeat;
+	width:30px;
+	padding:10px 8px;
+	position:relative;
+	top:5px;
+	border-radius:4px;
+}
+.contacts-in li i.home {background-position:50%    2px}
+.contacts-in li i.phone{background-position:50%  -48px}
+.contacts-in li i.fax  {background-position:50%  -98px}
+.contacts-in li i.email{background-position:50% -149px}
+.copyright-section i.back-to-top{
+	background:url(../images/icon-up.png) 50% 50% transparent no-repeat;
+	width:50px;height:45px;
+	top:-50px;
+}
+#intro{text-align:center}
