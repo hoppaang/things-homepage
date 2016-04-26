@@ -4,6 +4,7 @@ var ContactForm = function () {
         
         //Contact Form
         initContactForm: function () {
+	        alert('here');
 	        // Validation
 	        $("#sky-form3").validate({
 	            // Rules for form validation
