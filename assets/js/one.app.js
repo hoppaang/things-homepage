@@ -132,12 +132,12 @@ var App = function() {
       handleValignMiddle();
     },
 
-    // initCounter: function() {
-    //   jQuery('.counter').counterUp({
-    //     delay: 10,
-    //     time: 1000
-    //   });
-    // },
+    initCounter: function() {
+      jQuery('.counter').counterUp({
+        delay: 10,
+        time: 1000
+      });
+    },
 
     initParallaxBg: function() {
       $(window).load(function() {
