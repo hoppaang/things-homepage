@@ -1,7 +1,7 @@
 var ContactForm = function () {
 
     return {
-
+        
         //Contact Form
         initContactForm: function () {
 	        // Validation
@@ -26,10 +26,10 @@ var ContactForm = function () {
 	                captcha:
 	                {
 	                    required: true,
-	                    remote: 'assets/plugins/sky-forms/version-2.0.1/captcha/process.php'
+	                    remote: 'assets/plugins/sky-forms-pro/skyforms/captcha/process.php'
 	                }
 	            },
-
+	                                
 	            // Messages for form validation
 	            messages:
 	            {
@@ -52,8 +52,8 @@ var ContactForm = function () {
 	                    remote: 'Correct captcha is required'
 	                }
 	            },
-
-	            // Ajax form submition
+	                                
+	            // Ajax form submition                  
 	            submitHandler: function(form)
 	            {
 	                $(form).ajaxSubmit(
@@ -68,7 +68,7 @@ var ContactForm = function () {
 	                    }
 	                });
 	            },
-
+	            
 	            // Do not change code below
 	            errorPlacement: function(error, element)
 	            {
@@ -78,5 +78,5 @@ var ContactForm = function () {
         }
 
     };
-
+    
 }();

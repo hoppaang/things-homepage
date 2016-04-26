@@ -7,19 +7,19 @@
 	$subject = 'Online 문의 메일';
 	$message = $_POST['message'];
 	$template = "<table>
-        	            <tr>
-                	        <td>보낸사람: </td>
-                        	<td>".$name."</td>
-                            </tr>
-                    	    <tr>
-                        	<td>E-Mail: </td>
-                        	<td>".$email."</td>
-                    	    </tr>
-                    	    <tr>
-                        	<td>문의내용: </td>
-                        	<td width=\"900\">".$message."</td>
-                    	    </tr>
-                     </table>";
+    	            <tr>
+            	        <td>보낸사람: </td>
+                    	<td>".$name."</td>
+                    </tr>
+            	    <tr>
+                    	<td>E-Mail: </td>
+                    	<td>".$email."</td>
+            	    </tr>
+            	    <tr>
+                    	<td>문의내용: </td>
+                    	<td width=\"900\">".$message."</td>
+            	    </tr>
+                 </table>";
 
 	$mail = new PHPMailer(true); // create a new object
 
