@@ -60,7 +60,6 @@ var ContactForm = function () {
 	                {
 	                    beforeSend: function()
 	                    {
-	                    	console.log('test');
 	                        $('#sky-form3 button[type="submit"]').attr('disabled', true);
 	                    },
 	                    success: function()
