@@ -72,4 +72,12 @@
 	font-weight:100;
 	color:#fff !important;
 }
-.intro-section .container p{color:rgba(255,255,255,.6);font-weight:100;}
+.intro-section .container p{
+	color:rgba(255,255,255,.6);
+	font-weight:100;
+}
+.sky-form .message i{
+	background:url(../images/icon-mail.png) 45% 50% transparent no-repeat;
+	width:70px;height:70px;
+	border:3px solid #6fb679;
+}
