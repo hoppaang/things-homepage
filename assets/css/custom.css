@@ -82,10 +82,12 @@
 	border:3px solid #6fb679;
 }
 #video{
+	background-color:#777;
 	position:absolute;
 	max-height: 485px;
 	overflow-y: hidden;
 }
+#video video{min-height:485px}
 #intro{
 	position:relative;
 }
