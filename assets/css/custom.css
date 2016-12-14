@@ -86,3 +86,6 @@
 	max-height: 485px;
 	overflow-y: hidden;
 }
+#intro{
+	position:relative;
+}
