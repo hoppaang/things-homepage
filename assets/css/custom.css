@@ -59,14 +59,15 @@
 	border-width:0 1px;
 }
 .intro-section{
-	background:url(../images/bg1.png) 50% 90% no-repeat;
-	background-color:rgba(0,0,0,.4);
+	background:url(../images/bg1.png) 80% 120% no-repeat;
+	background-color:rgba(115,83,72,.6);
 	min-height:485px;
 	margin-top:-5px;
 }
 .intro-section .container{
-	margin-right:5%;padding:80px 0 0 0;
-	width:600px;
+	margin-left:100px;padding:80px 0 0 0;
+	width:30%;
+	text-align:right;
 }
 .intro-section .container h1{
 	font-size:30px !important;
@@ -74,8 +75,9 @@
 	color:#fff !important;
 }
 .intro-section .container p{
-	color:rgba(255,255,255,.6);
+	color:rgba(255,255,255,.8);
 	font-weight:100;
+	font-size:16px !important;
 }
 .sky-form .message i{
 	background:url(../images/icon-mail.png) 45% 50% transparent no-repeat;
