@@ -59,7 +59,7 @@
 	border-width:0 1px;
 }
 .intro-section{
-	background:url(../images/bg1.png) 50% 100% no-repeat #333;
+	background:url(../images/bg1.png) 50% 100% no-repeat;
 	min-height:485px;
 	margin-top:-5px;
 }
