@@ -60,12 +60,12 @@
 }
 .intro-section{
 	background:url(../images/bg1.png) 80% 120% no-repeat;
-	background-color:rgba(115,83,72,.6);
+	background-color:rgba(101,80,73,.7);
 	min-height:485px;
 	margin-top:-5px;
 }
 .intro-section .container{
-	margin-left:100px;padding:80px 0 0 0;
+	margin-left:100px;padding:250px 0 0 0;
 	width:30%;
 	text-align:right;
 }
