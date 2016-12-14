@@ -12,9 +12,9 @@
 	color:#ec5252 !important;
 	font-weight:bold;
 }
-.one-page-header .navbar-nav > .active > a, .one-page-header .navbar-nav > .active > a:hover, .one-page-header .navbar-nav > .active > a:focus, 
-.one-page-header .dropdown-menu > .active > a, .one-page-header .dropdown-menu > .active > a:hover, .one-page-header .dropdown-menu > .active > a:focus, 
-.one-page-header.top-nav-collapse .dropdown-menu > .active > a, .one-page-header.top-nav-collapse .dropdown-menu > .active > a:hover, 
+.one-page-header .navbar-nav > .active > a, .one-page-header .navbar-nav > .active > a:hover, .one-page-header .navbar-nav > .active > a:focus,
+.one-page-header .dropdown-menu > .active > a, .one-page-header .dropdown-menu > .active > a:hover, .one-page-header .dropdown-menu > .active > a:focus,
+.one-page-header.top-nav-collapse .dropdown-menu > .active > a, .one-page-header.top-nav-collapse .dropdown-menu > .active > a:hover,
 .one-page-header.top-nav-collapse .dropdown-menu > .active > a:focus
 {color:#ec5252 !important;}
 .one-page-header .navbar-nav > li > a:before{display:none;}
@@ -80,4 +80,9 @@
 	background:url(../images/icon-mail.png) 45% 50% transparent no-repeat;
 	width:70px;height:70px;
 	border:3px solid #6fb679;
+}
+#video{
+	position:absolute;
+	max-height: 485px;
+	overflow-y: hidden;
 }
